@@ -254,3 +254,4 @@ def test_discover_dumps_expands_dirs_and_globs(tmp_path: Path) -> None:
         "August_Swap_Data.xlsx"
     ]
     assert discover_dumps([str(tmp_path / "missing.xlsx")]) == []
+

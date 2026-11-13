@@ -277,7 +277,6 @@ class ProcessFilesWithLookupTests(unittest.TestCase):
             self.assertEqual(result.message, "178761435")
             self.assertTrue((Path(folder) / "Athi River.pdf").exists())
 
-
 class CliDefaultsTests(unittest.TestCase):
     def test_production_input_directory_is_raw_files(self):
         from powerbills.cli import DEFAULT_INPUT_DIRECTORY

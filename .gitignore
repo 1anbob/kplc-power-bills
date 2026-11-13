@@ -20,6 +20,7 @@ venv/
 Swap Dump/
 backup/
 raw_files/
+raw_files-1/
 
 # Generated workbooks and summaries
 excel/October KPLC Power Bills.xlsx
